@@ -19,6 +19,7 @@ a {
 .div1 {
     background: #1f2937;
     color: #f9faf8;
+    padding-bottom: 30px;
 }
 
 .header-wrapper {
@@ -49,13 +50,19 @@ a {
 
 .hero-wrapper {
     display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
+    gap: 20px;
 }
 
 .hero-col1 {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    width: 25%;
+    align-content: center;
+    gap: 15px;
+    flex: 0 1 0;
 }
 
 #hero-text {
@@ -71,10 +78,16 @@ a {
 
 .sign-up {
     background: #3882f6;
-    width: 10%;
+    width: 7rem;
+    padding: 10px;
+    color: #f9faf8;
+    border-radius: 15%;
 }
 
-.hero-col2 {}
+.hero-col2 {
+    align-self: center;
+    width: 640px;
+}
 
 /* random information section */
 .div2 {}
