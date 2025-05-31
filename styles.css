@@ -2,9 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto sans-serif;
+    font-family: "Roboto";
     width: 100%;
 }
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Top div */
 
 .div1 {
     background: #1f2937;
@@ -12,13 +22,67 @@
 }
 
 .header-wrapper {
+    display: flex;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+#header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    flex: 1 0 0;
+    align-items: center;
+    text-align: center;
+}
+
+#header-links {
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+/* Hero div */
+
+.hero-wrapper {
+    display: flex;
+}
+
+.hero-col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 25%;
+}
+
+#hero-text {
+    font-size: 48px;
+    font-weight: 900;
     color: #f9faf8;
 }
 
+#hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up {
+    background: #3882f6;
+    width: 10%;
+}
+
+.hero-col2 {}
+
+/* random information section */
 .div2 {}
 
+/* quote section */
 .div3 {}
 
+/* call to action section */
 .div4 {}
 
 footer {
